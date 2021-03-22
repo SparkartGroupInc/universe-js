@@ -20,7 +20,8 @@
     "test": "./node_modules/.bin/gulp test",
     "node-test": "./node_modules/.bin/gulp node-test",
     "browser-test": "./node_modules/.bin/gulp browser-test",
-    "test-server": "./node_modules/.bin/gulp test-server"
+    "test-server": "./node_modules/.bin/gulp test-server",
+    "zip-wordpress-plugin": "(rm universe-js.zip || true) && zip -r -q universe-js.zip . -x '*.DS_Store' -x '.git/*' -x 'node_modules/*'"
   },
   "dependencies": {
     "dom-delegate": "^2.0.3",
